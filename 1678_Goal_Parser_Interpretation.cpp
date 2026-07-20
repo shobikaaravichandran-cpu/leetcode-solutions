@@ -1,4 +1,15 @@
-class Solution {
+/*
+Problem: 1678. Goal Parser Interpretation
+Difficulty: Easy
+
+Approach:
+- Traverse the string.
+- Replace "()" with 'o'.
+- Replace "(al)" with "al".
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/class Solution {
 public:
     string interpret(string command) {
         string ans = "";
